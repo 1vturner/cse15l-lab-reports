@@ -69,11 +69,10 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 **STEP 1**: Here we are going to run some commands in the terminal. Here is a list of commands we may go over and you can try on your own:
 
 `-cd ~`
-
--cd
--ls -lat
--ls -a
--ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
--cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
--cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+`-cd`
+`-ls -lat`
+`-ls -a`
+`-ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
+`-cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+`-cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
