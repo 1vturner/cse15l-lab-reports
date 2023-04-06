@@ -27,4 +27,6 @@
 
 ![Image](STEPFIRST.png)
 
-**STEP 2**: 
+**STEP 2**: Now we are going to use ssh in the terminal. In order to do so put the following code in the terminal and hit return on keyboard. Replace the zz with your personal username. NOTE- you do not need to use the $ in front as that is just to show it is a command. 
+
+`$ ssh cs15lsp23zz@ieng6.ucsd.edu`
