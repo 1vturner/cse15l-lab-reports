@@ -30,3 +30,16 @@
 **STEP 2**: Now we are going to use ssh in the terminal. In order to do so put the following code in the terminal and hit return on keyboard. Replace the zz with your personal username. NOTE- you do not need to use the $ in front as that is just to show it is a command. 
 
 `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
+
+**STEP 3**: Once you have run that command you should get the following below:
+`ssh cs15lsp23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+ If you have the following type yes and hit return. If you are not seeing this, please raise your hand and get a tutor.
+ 
+ **STEP 4**: It will ask for you to input your password, when typing it wont show that your typing but know that is gathering what you are writing.
+ 
+ `Password:`
+ 
+ **STEP 5**:
