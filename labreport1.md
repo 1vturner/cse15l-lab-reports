@@ -24,3 +24,7 @@
 ------------------------
 
 **STEP 1**: In VS Code, look in the lower left corner and click the icons below; from there you will see a heading Terminal. Click that and the terminal will open
+
+![Image](STEPFIRST.png)
+
+**STEP 2**: 
