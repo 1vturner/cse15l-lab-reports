@@ -61,7 +61,7 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23`
 
-If you see this **CONGRATS** you have connected to a remote server. If you do not see this, please raise your hand and wait for a tutor to arrive..
+If you see this **CONGRATS** you have connected to a remote server. If you do not see this, please raise your hand and wait for a tutor to arrive.
 
 **TRYING SOME COMMANDS:**
 ------------------------
