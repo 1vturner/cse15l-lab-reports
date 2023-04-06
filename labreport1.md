@@ -68,7 +68,8 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 
 **STEP 1**: Here we are going to run some commands in the terminal. Here is a list of commands we may go over and you can try on your own:
 
-*`cd ~
+-`cd ~
+
 -cd
 -ls -lat
 -ls -a
