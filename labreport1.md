@@ -46,7 +46,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
  
  **STEP 5**: Now that you've inputted the passowrd you should see the following below after running the command:
  
-
+![Image](FINALIMG.png)
 
 
 If you see this **CONGRATS** you have connected to a remote server. If you do not see this, please raise your hand and wait for a tutor to arrive.
