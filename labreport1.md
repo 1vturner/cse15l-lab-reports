@@ -18,3 +18,7 @@
 **STEP 4**: From here VSCODE will open. You have now downloaded VS code on to your system. You will be able to open through launchpad if you have a mac. **HAPPY CODING**
 
 ![Image](STEP5.png)
+
+
+**REMOTELY CONNECTING**
+------------------------
