@@ -82,3 +82,7 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 
 `-cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
+**STEP 2**: From here you are going to write the following commands in the terminal and look at the results. In additon to the ones above also try using cd, ls, pwd, mkdir, and cp! When running these see how they react and what the output is, or if there are erros think about why there are errors. Here is an example of what is should look like below:
+
+
+![Image](LABIMAGE.png)
