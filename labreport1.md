@@ -46,7 +46,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
  
  **STEP 5**: Now that you've inputted the passowrd you should see the following below after running the command:
  
- ```
+
  Now on remote server
 Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
 quota: No filesystem specified.
@@ -59,7 +59,7 @@ Hostname     Time    #Users  Load  Averages
 ieng6-201   23:25:01   0  0.08,  0.17,  0.11
 ieng6-202   23:25:01   1  0.09,  0.15,  0.11
 ieng6-203   23:25:01   1  0.08,  0.15,  0.11
-```
+
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23`
 
@@ -88,3 +88,5 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 
 
 ![Image](LABIMAGE.png)
+
+ **Overall, make sure you have a general understanding of all the material. For example: CD is change in directory and when we put the ~ after it it cancels the before action. Things like this will help you go far in the class. Enjoy the rest of spring quarter in CSE15L :))**
