@@ -4,7 +4,7 @@
 
 
 **STEP 1**: I used the link given in the write up to get on VS code. Here you will see the blue download button, I will go ahead and click this here. 
-
+[title](https://code.visualstudio.com/)
 ![Image](STEP1.png)
 
 **STEP 2**: Then you are going to click whichever device you have and download from there. I had a mac so I chose mac and from there my system downloaded it. 
@@ -70,7 +70,41 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 
 `-cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
-**STEP 2**: From here you are going to write the following commands in the terminal and look at the results. In additon to the ones above also try using cd, ls, pwd, mkdir, and cp! When running these see how they react and what the output is, or if there are erros think about why there are errors. Here is an example of what is should look like below:
+**STEP 2**: From here you are going to write the following commands in the terminal and look at the results.
+
+
+**WE WILL RUN**
+`-cd ~`
+
+`-cd`
+
+`-ls -lat`
+
+`-ls -a`
+
+**REULT**
+![Image](labreportredo.png)
+
+
+
+cd is essentially change directory which is why for both when I ran it nothing appeared becuase I was already in the one directory available. Following cd, we have ls which essentially lists the contents in the file or folder you are currently working in. 
+
+**NEXT WE WILL RUN**
+
+`-ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
+
+`-cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+
+`-cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+
+**RESULT**
+
+![Image](aaaaaa.png)
+
+I was not able to gain access to a classmates directory and list it, however I was able to run both the cp and cat. The cp returned nothing and the cat concatenated the files which printed 'Hello'
+
+
+**STEP 3**: In additon to the ones above also try using cd, ls, pwd, mkdir, and cp! When running these see how they react and what the output is, or if there are erros think about why there are errors. Here is an example of what is should look like below:
 
 
 ![Image](LABIMAGE.png)
