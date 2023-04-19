@@ -88,7 +88,7 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 
 **REULT**
 
-![Image](Labreportredo.png)
+![Image](LABREPORTREDO.png)
 
 
 
@@ -104,7 +104,7 @@ cd is essentially change directory which is why for both when I ran it nothing a
 
 **RESULT**
 
-![Image](Easy.png)
+![Image](EASY.png)
 
 I was not able to gain access to a classmates directory and list it, however I was able to run both the cp and cat. The cp returned nothing as it is just a copy, and the cat concatenated the files which printed 'Hello'
 
@@ -112,7 +112,7 @@ I was not able to gain access to a classmates directory and list it, however I w
 **STEP 3**: In additon to the ones above also try using cd, ls, pwd, mkdir, and cp! When running these see how they react and what the output is, or if there are erros think about why there are errors. Here is an example of what is should look like below:
 
 
-![Image](Aa.png)
+![Image](AA.png)
 
 
  **Overall, make sure you have a general understanding of all the material. For example: CD is change in directory and when we put the ~ after it it cancels the before action. ls lists the contents in our directory/file. PWD is are parent working directory. mkdir makes a new working directory. Lastly cp is simply copy. Things like this will help you go far in the class. Enjoy the rest of spring quarter in CSE15L :))**
