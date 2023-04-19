@@ -87,7 +87,7 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 
 `-ls -a`
 
-**REULT:**
+**RESULT:**
 
 ![Image](LABREPORTREDO.png)
 
