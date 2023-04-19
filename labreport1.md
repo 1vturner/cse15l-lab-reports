@@ -77,7 +77,8 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 **STEP 2**: From here you are going to write the following commands in the terminal and look at the results.
 
 
-**WE WILL RUN**
+**WE WILL RUN:**
+
 `-cd ~`
 
 `-cd`
@@ -86,7 +87,7 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 
 `-ls -a`
 
-**REULT**
+**REULT:**
 
 ![Image](LABREPORTREDO.png)
 
@@ -94,7 +95,7 @@ If you see this **CONGRATS** you have connected to a remote server. If you do no
 
 cd is essentially change directory which is why for both when I ran it nothing appeared becuase I was already in the one directory available. Following cd, we have ls which essentially lists the contents in the file or folder you are currently working in. 
 
-**NEXT WE WILL RUN**
+**NEXT WE WILL RUN:**
 
 `-ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username`
 
@@ -102,7 +103,7 @@ cd is essentially change directory which is why for both when I ran it nothing a
 
 `-cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
-**RESULT**
+**RESULT:**
 
 ![Image](EASY.png)
 
