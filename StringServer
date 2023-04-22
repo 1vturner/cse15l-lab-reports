@@ -1,9 +1,13 @@
-class AddAString{
-String s;
+//class AddAString{
+//String s;
 
-Adding (String s){
-this.s = s;
-}
+//Adding (String s){
+//this.s = s;
+//}
 
-public String added(String s){
-  return this.s+"\n";
+//public String added(String s){
+ // return this.s+"\n";
+ 
+ public String handleRequest(URI url) {
+ if (url.getPath().equals("/")){
+ return String.format("
