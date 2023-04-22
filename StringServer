@@ -1,13 +1,3 @@
-//class AddAString{
-//String s;
-
-//Adding (String s){
-//this.s = s;
-//}
-
-//public String added(String s){
- // return this.s+"\n";
- 
- public String handleRequest(URI url) {
- if (url.getPath().equals("/")){
- return String.format("
+public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("Victoria: %d", num);
