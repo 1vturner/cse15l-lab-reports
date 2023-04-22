@@ -6,4 +6,4 @@ this.s = s;
 }
 
 public String added(String s){
-return this.s+"\n"
+  return this.s+"\n";
