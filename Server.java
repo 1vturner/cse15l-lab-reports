@@ -40,7 +40,7 @@ class ServerHttpHandler implements HttpHandler {
 }
 
 public class Server {
-    public static void start(int port, URLHandler handler) throws IOException {
+    public static void start(String x, int port, URLHandler handler) throws IOException {
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
 
         //create request entrypoint
@@ -48,6 +48,6 @@ public class Server {
 
         //start the server
         server.start();
-        System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
+        System.out.println("Server Started! Visit http://localhost:" +port+ "/add-message?s="+x+"");
     }
 }

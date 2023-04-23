@@ -6,7 +6,6 @@ class Handler implements URLHandler {
     // various requests.
     String x = " ";
 
-
     public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message?s=")) {
             return this.x + "/n";
@@ -16,12 +15,15 @@ class Handler implements URLHandler {
     }
 }
 
-class StringServer {
+class NumberServer {
     public static void main(String[] args) throws IOException {
-        if(args.length == 0){
-            System.out.println("Missing a request");{
+        if (args.length == 0) {
+            System.out.println("Missing reference");
             return;
         }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(this.x, o, new Handler());
     }
-}
 }
