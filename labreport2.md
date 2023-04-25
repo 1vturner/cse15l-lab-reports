@@ -68,8 +68,8 @@ this does not give us an error because it is an empty string so regardless it wi
 **CODE BEFORE THE BUG FIX**
 
 **CODE AFTER THE BUG**
-
-`static int[] reversed(int[] arr) {
+`
+static int[] reversed(int[] arr) {
 
     int[] newArray = new int[arr.length];
     
@@ -81,5 +81,6 @@ this does not give us an error because it is an empty string so regardless it wi
     
     return newArray;
   }
+
 `
 
