@@ -1,5 +1,5 @@
 **CODE FOR STRING SERVER:**
 ------------------------
 
-![Image](CODEFORLAB.png)
+![Image](Codeforlab.png)
 
