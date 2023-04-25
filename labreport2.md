@@ -82,15 +82,15 @@ this does not give us an error because it is an empty string so regardless it wi
 **CODE AFTER THE BUG**
 
 
-`static int[] reversed(int[] arr) {
+`static int[] reversed(int[] arr) {`
 
-    int[] newArray = new int[arr.length];
+`int[] newArray = new int[arr.length];`
     
-   for(int i = 0; i < arr.length; i += 1) {
+`for(int i = 0; i < arr.length; i += 1) {`
   
-   newArray[i] = arr[arr.length]-i-1;}
+`newArray[i] = arr[arr.length]-i-1;}`
    
-   return NewArray;}`
+`return NewArray;}`
    
 this method updated the original which lost date as it updated without a temp. As this method has a new array, the original array should not be changed so as not to lose information. It was also returning the original array. 
 
