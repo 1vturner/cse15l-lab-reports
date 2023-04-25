@@ -56,8 +56,9 @@ this does not give us an error because it is an empty string so regardless it wi
 
 `int[] input1 = { };`
    
-`assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
-  }`
+`assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));`
+
+`}`
 
 **output with failing test and passing test**
 
