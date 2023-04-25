@@ -52,3 +52,8 @@ The port values and the String value are interchagable as you are able to create
    
    ` assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));`
  ` }`
+
+**output with failing test and passing test**
+
+
+![Image](testforlab.png)
