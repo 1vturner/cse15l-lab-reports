@@ -49,7 +49,8 @@ this produces an error because it does not return it in a reverse order but inst
 this does not give us an error because it is an empty string so regardless it will return empty
 
 
-` @Test`
+
+`@Test`
 
 `public void testReversed() {`
 
@@ -62,6 +63,7 @@ this does not give us an error because it is an empty string so regardless it wi
 
 
 ![Image](testforlab.png)
+
 
 **CODE BEFORE THE BUG FIX**
 
