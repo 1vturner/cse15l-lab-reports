@@ -49,13 +49,13 @@ this produces an error because it does not return it in a reverse order but inst
 this does not give us an error because it is an empty string so regardless it will return empty
 
 
-` @Test
+` @Test`
 
-  public void testReversed() {
+`public void testReversed() {`
 
-   int[] input1 = { };
+`int[] input1 = { };`
    
-    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+`assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }`
 
 **output with failing test and passing test**
@@ -66,17 +66,17 @@ this does not give us an error because it is an empty string so regardless it wi
 **CODE BEFORE THE BUG FIX**
 
 
-`static int[] reversed(int[] arr) {
+`static int[] reversed(int[] arr) {`
 
-    int[] newArray = new int[arr.length];
+`int[] newArray = new int[arr.length];`
     
-   for(int i = 0; i < arr.length; i += 1)
+`for(int i = 0; i < arr.length; i += 1)`
     
-    arr[i] = newArray[arr.length - i - 1]};
+`arr[i] = newArray[arr.length - i - 1]};`
      
-   return arr;
+`return arr;`
   
- }`
+ `}`
 
 
 **CODE AFTER THE BUG**
