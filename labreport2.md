@@ -30,6 +30,7 @@ The port values and the String value are interchagable as you are able to create
 **BUG AND BUG FREE METHODS:**
 -----------------------------
 
+**test that prodcues an error with buggy code:**
 
 `@Test`
 
@@ -41,4 +42,12 @@ The port values and the String value are interchagable as you are able to create
 `}`
 
 
+**test that does not prodcues an error with buggy code**
+` @Test`
 
+`  public void testReversed() {`
+
+   ` int[] input1 = { };`
+   
+   ` assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));`
+ ` }`
