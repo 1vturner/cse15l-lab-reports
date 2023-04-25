@@ -73,10 +73,8 @@ this does not give us an error because it is an empty string so regardless it wi
     
    ` for(int i = 0; i < arr.length; i += 1)` `{`
     
-    ` arr[i] = newArray[arr.length - i - 1];`
+    `arr[i] = newArray[arr.length - i - 1]};`
      
-  ` }`
-  
   ` return arr;`
   
  `}`
@@ -93,9 +91,9 @@ this does not give us an error because it is an empty string so regardless it wi
   
    `newArray[i] = arr[arr.length]-i-1;}`
    
-   `return NewArray;`
+   `return NewArray;}`
    
-     `}`
+    
  
 
 
