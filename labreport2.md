@@ -1,7 +1,8 @@
 **CODE FOR STRING SERVER:**
 ------------------------
 
-**Purpose for code:** The purpose of this code is to return the string after the equal sign and then return a new line of the following string inputted.
+
+**Purpose for code:** The purpose of this code is to return the string after the equal sign and then return a new line of the following string inputted in the localhost of our choice.
 
 
 ![Image](Codeforlab.png)
