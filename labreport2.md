@@ -71,7 +71,7 @@ this does not give us an error because it is an empty string so regardless it wi
 
    ` int[] newArray = new int[arr.length];`
     
-   ` for(int i = 0; i < arr.length; i += 1)` `{`
+   `for(int i = 0; i < arr.length; i += 1)`
     
     `arr[i] = newArray[arr.length - i - 1]};`
      
