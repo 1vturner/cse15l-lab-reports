@@ -32,6 +32,9 @@ The port values and the String value are interchagable as you are able to create
 
 **test that prodcues an error with buggy code:**
 
+this produces an error because it does not return it in a reverse order but instead it would return only certain elements reversed and not the whole array
+
+
 `@Test`
 
 `public void testReversed1() {`
@@ -43,6 +46,9 @@ The port values and the String value are interchagable as you are able to create
 
 
 **test that does not prodcues an error with buggy code**
+
+this does not give us an error because it is an empty string so regardless it will return empty
+
 
 ` @Test`
 
@@ -57,3 +63,22 @@ The port values and the String value are interchagable as you are able to create
 
 
 ![Image](testforlab.png)
+
+
+**CODE BEFORE THE BUG FIX**
+
+**CODE AFTER THE BUG**
+
+`static int[] reversed(int[] arr) {
+
+    int[] newArray = new int[arr.length];
+    
+    for(int i = 0; i < arr.length; i += 1) {
+    
+      newArray[i] = arr[arr.length]-i-1;
+      
+    }
+    
+    return newArray;
+  }
+`
