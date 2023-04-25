@@ -93,7 +93,13 @@ this does not give us an error because it is an empty string so regardless it wi
    
    `return NewArray;}`
    
-    
+this method updated the original which lost date as it updated without a temp. As this method has a new array, the original array should not be changed so as not to lose information. It was also returning the original array. 
+
+
+**PREVIEW ON WHAT I HAVE LEARNED:**
+-----------------------------------
+
+These past weeks I have learned that testing is crucial in making sure that the code written does exactly as it is supposed to. As we learned the same bug can cause multiple symptoms, and without looking at the code we have and testing it, it is impossible to know how we can approach to fix it. I also learned more about Junit and how I can test with AssertEquals. To test you would need to write AsserEquals(expected,actual). Overall I am very satisifies with what I have learned. 
  
 
 
