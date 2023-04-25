@@ -35,15 +35,14 @@ The port values and the String value are interchagable as you are able to create
 this produces an error because it does not return it in a reverse order but instead it would return only certain elements reversed and not the whole array
 
 
+
 `@Test`
 
-`public void testReversed1() {`
+`public void testReversed(){`
 
-  `int[] input1 = { 3,2,1,0,-1};`
+ `int[] input1 = {3,2,1,0,-1};`
  
- ` assertArrayEquals(new int[]{-1,0,1,2,3 }, ArrayExamples.reversed(input1));`
-`}`
-
+ `assertArrayEquals(new int[]{-1,0,1,2,3}, ArrayExamples.reversed(input1));}`
 
 **test that does not prodcues an error with buggy code**
 
