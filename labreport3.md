@@ -1,4 +1,4 @@
-**The Find Command:**
-------------------------
+# The Find Command
 
-# Max Depth
+**Max Depth:**
+------------------------
