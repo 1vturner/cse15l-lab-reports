@@ -280,3 +280,32 @@ technical/plos/pmed.0020242.txt
 
 Using -size__ allows you to find files maximum or minimum storage size a file has. When running this if I add 2M after size it will bring me the files all under 2Mb. This is a significant command becuase when trying to submit files you are able to see their size beforehand and will know if it can be downloaded/submitted or not.  
 
+
+```
+vickyyy.t@MacBook-Pro-3 stringsearch-data % find technical/government -maxdepth 1
+technical/government
+technical/government/About_LSC
+technical/government/Env_Prot_Agen
+technical/government/Alcohol_Problems
+technical/government/Gen_Account_Office
+technical/government/Post_Rate_Comm
+technical/government/Media
+```
+
+**Find FILE/DIRECTORYNAME -empty:**
+------------------------
+
+This will find all the empty folders and files that are empty within the working directory
+
+```
+vickyyy.t@MacBook-Pro-3 docsearch % find technical/government -empty      
+vickyyy.t@MacBook-Pro-3 docsearch % 
+```
+
+```
+vickyyy.t@MacBook-Pro-3 docsearch % find technical/biomed -empty      
+vickyyy.t@MacBook-Pro-3 docsearch % 
+
+```
+^There were no empty folders/files so it did not return anything and is ready for another argument
+
