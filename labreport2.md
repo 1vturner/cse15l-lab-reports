@@ -5,30 +5,31 @@
 **Purpose for code:** The purpose of this code is to return the string after the equal sign and then return a new line of the following string inputted in the localhost of our choice.
 
 
-![Image](Codeforlab.png)
+![Image](000.png)
 
-![Image](Servercode.png)
 
-![Image](Proofforlab.png)
+
 
 **Methods Called:**
- The StringServer code was changed from the NumberServer code only by adding Strings and taking Strings as an argument. The server code was similar but all I did was replace port with. The method called is my String Server method which in the terminal I would run.
+ The `Server.start(port, new Handler());` in StringServer.java will call the main method in Server.java which calls `handleRequest()`. This is in StringServer.java and also contains the interface called `URLHandler`. The URI named URL is passed through, then in the Handler method there are lines that use getPath and getQuery. Additonally, there is a split() method to split the query by an equal sign and will create the array called parameters.
 
+
+![Image](0.png)
 
 `$ javac Server.java StringServer.java`
 
-`$ java StringServer`
+`$ java StringServer 4301`
 
 **Relevant arguments and Relevant fields of the class:**
-Relevant arguments that are of significance are URI url handler, without this we would not be able to get the overall url that holds the local host we are trying to acess. As for the fields of the class, I am implementing handler which essentially contains preexistine written implementation methods.
+`Server.start(port, new Handler());` takes in a int and a URLHandler type. The port can be any int between 1024 and 49151. Port essentially is the int you choose your localhost to be on. HandleRequest has an argument of URI which is named url as said before. Url is the `"\add-message?s=Hi"` part in the terminal. This will always be a string type hence the `"s"` after the question mark.
 
 
 **Values of relevant fields changing from specific request**
 
-The port values and the String value are interchagable as you are able to create a new port and are able to implement a new String to continously add on. The https portion of the code was changed.
+The value of `parmater[1]` is what chnage din the code, this is what gets printed into the code. The string `words` follows if the user changes the `query` and `parameter[1]` and will be stored into `words`. From this the changes will be printed on the server.
 
-`System.out.println("Server Started! Visit http://localhost:"+port+"/add-message?s="+x+"");`
 
+![Image](00.png)
 
 
 **BUG AND BUG FREE METHODS:**
