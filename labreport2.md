@@ -47,13 +47,13 @@ public void testReversed(){
 
 int[] input1 = {3,2,1};
 assertArrayEquals(new int[]{1,2,3}, ArrayExamples.reversed(input1));}
-
+```
 **test that does not prodcues an error with buggy code**
 
 this does not give us an error because it is an empty string so regardless it will return empty
 
 
-```
+
 ```
 @Test
 
