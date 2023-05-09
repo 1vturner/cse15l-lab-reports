@@ -45,9 +45,9 @@ this produces an error because it does not return it in a reverse order but inst
 
 `public void testReversed(){`
 
- `int[] input1 = {3,2,1,0,-1};`
+ `int[] input1 = {3,2,1};`
  
- `assertArrayEquals(new int[]{-1,0,1,2,3}, ArrayExamples.reversed(input1));}`
+ `assertArrayEquals(new int[]{1,2,3}, ArrayExamples.reversed(input1));}`
 
 **test that does not prodcues an error with buggy code**
 
@@ -73,33 +73,34 @@ this does not give us an error because it is an empty string so regardless it wi
 
 **CODE BEFORE THE BUG FIX**
 
+```
+static int[] reversed(int[] arr) {
 
-`static int[] reversed(int[] arr) {`
-
-`int[] newArray = new int[arr.length];`
+int[] newArray = new int[arr.length];
     
-`for(int i = 0; i < arr.length; i += 1)`
+for(int i = 0; i < arr.length; i += 1)
     
-`arr[i] = newArray[arr.length - i - 1]};`
+arr[i] = newArray[arr.length - i - 1]};
      
-`return arr;`
+return arr;
   
- `}`
+ }
+ ```
 
 
 **CODE AFTER THE BUG**
 
+```
+static int[] reversed(int[] arr) {
 
-`static int[] reversed(int[] arr) {`
-
-`int[] newArray = new int[arr.length];`
+int[] newArray = new int[arr.length];
     
-`for(int i = 0; i < arr.length; i += 1) {`
-  
-`newArray[i] = arr[arr.length]-i-1;}`
+for(int i = 0; i < arr.length; i += 1) {
+newArray[i] = arr[arr.length]-i-1;}
    
-`return NewArray;}`
-   
+return NewArray;
+}
+```
 this method updated the original which lost date as it updated without a temp. As this method has a new array, the original array should not be changed so as not to lose information. It was also returning the original array. 
 
 
