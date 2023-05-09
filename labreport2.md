@@ -40,30 +40,29 @@ The value of `parmater[1]` is what chnage din the code, this is what gets printe
 this produces an error because it does not return it in a reverse order but instead it would return only certain elements reversed and not the whole array
 
 
+```
+@Test
 
-`@Test`
+public void testReversed(){
 
-`public void testReversed(){`
-
- `int[] input1 = {3,2,1};`
- 
- `assertArrayEquals(new int[]{1,2,3}, ArrayExamples.reversed(input1));}`
+int[] input1 = {3,2,1};
+assertArrayEquals(new int[]{1,2,3}, ArrayExamples.reversed(input1));}
 
 **test that does not prodcues an error with buggy code**
 
 this does not give us an error because it is an empty string so regardless it will return empty
 
 
+```
+```
+@Test
 
-`@Test`
+public void testReversed() {
 
-`public void testReversed() {`
-
-`int[] input1 = { };`
+int[] input1 = { };
    
-`assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));`
-
-`}`
+assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+```
 
 **output with failing test and passing test**
 
@@ -85,8 +84,8 @@ arr[i] = newArray[arr.length - i - 1]};
 return arr;
   
  }
- ```
-
+ 
+```
 
 **CODE AFTER THE BUG**
 
@@ -96,7 +95,8 @@ static int[] reversed(int[] arr) {
 int[] newArray = new int[arr.length];
     
 for(int i = 0; i < arr.length; i += 1) {
-newArray[i] = arr[arr.length]-i-1;}
+newArray[i] = arr[arr.length-i-1];
+}
    
 return NewArray;
 }
