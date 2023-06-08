@@ -39,6 +39,7 @@ which lead me to have `bash test.sh` Which ran two tests but failed one of the t
 
 **Keys pressed for using vim and passing the tests:**
 -----------------
+![Image](@@@@.png)
 ```
 vim ListExamples.java 
 <k><k><k><k>
