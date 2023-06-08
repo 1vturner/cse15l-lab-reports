@@ -20,6 +20,7 @@ I physcially typed ls because it was not anywhere within 5 `<up>` arrows. From h
 
 **Keys pressed for cloning:**
 -----------------
+![Image](@@@@@.png)
 I typed `git clone`, then went to my repository and used my ssh that I have on my github account and clicked
 ```
 <ctrl +v>
