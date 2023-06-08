@@ -39,10 +39,11 @@ which lead me to have `bash test.sh` Which ran two tests but failed one of the t
 
 **Keys pressed for using vim and passing the tests:**
 -----------------
-![Image](@@@@.png)
+![Image](onee.png)
+![Image](one.png)
 ```
 vim ListExamples.java 
-<k><k><k><k>
+<k><k><k><k><k><k>
 <i>
 ```
 I inserted a 2 where index1 was
@@ -56,6 +57,7 @@ Once I exited vim I used `wq:` to save the file so the following test would Pass
 `<up> <up>` 
 
 I clicked the up arrow twice to rerun `bash test.sh` and both the tests ran and both passed. 
+![Image](11.png)
 
 
 ![Image](lab4pt2.png)
