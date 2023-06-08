@@ -46,7 +46,7 @@ vim ListExamples.java
 <i>
 ```
 I inserted a 2 where index1 was
-
+![Image](@@@@.png)
 ```
 <esc>
 <wq:>
