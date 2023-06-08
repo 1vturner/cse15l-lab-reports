@@ -1,9 +1,9 @@
 # Screenshot of Terminal and Directions
 
-![Image](lab4.png)
 
 **Keys pressed for ssh account:**
 -----------------
+![Image](lab4pt2.png)
 ```
 <up><up><up>
 ```
