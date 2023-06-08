@@ -60,7 +60,6 @@ I clicked the up arrow twice to rerun `bash test.sh` and both the tests ran and 
 ![Image](11.png)
 
 
-![Image](lab4pt2.png)
 
 **Keys pressed for commiting file changes:**
 -----------------
