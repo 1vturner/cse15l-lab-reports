@@ -12,6 +12,7 @@ Went up three times because when practicing this before it was saved in my searc
 
 **Keys pressed for ls:**
 -----------------
+![Image](@@.png)
 ```
 ls
 ```
