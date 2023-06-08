@@ -50,9 +50,9 @@ I inserted a 2 where index1 was
 ![Image](@@@@.png)
 ```
 <esc>
-<wq:>
+<:wq>
 ```
-Once I exited vim I used `wq:` to save the file so the following test would Pass.
+Once I exited vim I used `:wq` to save the file so the following test would Pass.
 
 `<up> <up>` 
 
@@ -64,9 +64,15 @@ I clicked the up arrow twice to rerun `bash test.sh` and both the tests ran and 
 
 **Keys pressed for commiting file changes:**
 -----------------
+![Image](lab4pt2.png)
+
 I physically typed `git commit` at first, which was wrong because it then told me I needed to either say `git add` or `git commit -a` 
 
 Which then I typed `git commit -a` and it saved my changes to my git file on github and on the command line
+
+![Image](111.png)
+
+Which after I physically typed `git push` to further save my code to my github repository.
 
 
 
