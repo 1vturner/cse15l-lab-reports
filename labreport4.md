@@ -3,7 +3,7 @@
 
 **Keys pressed for ssh account:**
 -----------------
-![Image](lab4pt2.png)
+![Image](@.png)
 ```
 <up><up><up>
 ```
