@@ -12,10 +12,10 @@ The input is marked as `Level`. The code is supposed to make a variable for coun
 
 
 **JAVA FILE**
-![Image](ana1.png)
+![Image](RENAME.png)
 
 **BASH FILE**
-![Image](ana2.png)
+![Image](RENAME1.png)
 
 **TA RESPONDED WITH:**
 The code is correct, however make sure to check the first iteration of your while loop. Also make sure the code knows the difference between `L `and `I`! You got this :)
