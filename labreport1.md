@@ -11,6 +11,13 @@
 
 ![Image](STEP1.png)
 
+![State Diagram for DFA](https://i.imgur.com/T5gA1Xp.png)
+
+
+
+![State Diagram for PDA](https://i.imgur.com/1YfRILd.png)
+
+
 **STEP 2**: Then you are going to click whichever device you have and download from there. I had a mac so I chose mac and from there my system downloaded it. 
 
 ![Image](STEP2.png)
